@@ -162,7 +162,7 @@ int len() {
 
 int peek() {
     if (isEmpty()) {
-        cout << “Stack is Empty!”;
+        cout << "Stack is Empty!";
         return INT_MIN;
     }
     return stack[topIndex];
